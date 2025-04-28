@@ -1,2 +1,3 @@
 User-agent: *
-Allow: https://merry-fenglisu-325f5b.netlify.app/
+Allow: /
+Host: https://merry-fenglisu-325f5b.netlify.app/
