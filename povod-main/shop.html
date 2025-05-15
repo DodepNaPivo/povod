@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Магазин - Eagle Square Роскошные часы</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header" role="banner">
+        <div class="header-wrapper">
+            <nav class="primary-nav" role="navigation" aria-label="Main navigation">
+                <a href="index.html" class="brand-logo" aria-label="Eagle Square home">
+                    <img src="svg/Eaglesquare.svg" alt="">
+                </a>
+                <ul class="nav-links" role="menubar">
+                    <li role="none"><a href="index.html" class="nav-link" role="menuitem">Главная</a></li>
+                    <li role="none"><a href="about.html" class="nav-link" role="menuitem">О нас</a></li>
+                    <li role="none"><a href="shop.html" class="nav-link active" role="menuitem" aria-current="page">Магазин</a></li>
+                    <li role="none"><a href="service.html" class="nav-link" role="menuitem">Сервис</a></li>
+                    <li role="none"><a href="contact.html" class="nav-link" role="menuitem">Контакты</a></li>
+                </ul>
+
+                <div class="header-actions">
+                    <button class="cart-button" aria-label="Корзина" aria-haspopup="true">
+                        <img src="svg/Vector.svg" alt="" class="cart-icon" aria-hidden="true">
+                    </button>
+
+                    <button class="cta-button" aria-label="Купить сейчас">Купить сейчас</button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main role="main" class="main-content">
+        <section class="section-content">
+            <h1 class="section-heading">Наш каталог часов</h1>
+            <p class="section-description">
+                Исследуйте нашу эксклюзивную коллекцию роскошных часов, созданных с безупречной точностью и элегантностью. Каждая модель - это уникальное сочетание традиционного мастерства и современных технологий.
+            </p>
+
+            <div class="shop-filters">
+                <div class="filter-group">
+                    <label for="category">Категория:</label>
+                    <select id="category" name="category">
+                        <option value="all">Все часы</option>
+                        <option value="classic">Классические</option>
+                        <option value="sport">Спортивные</option>
+                        <option value="luxury">Люкс</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="price">Цена:</label>
+                    <select id="price" name="price">
+                        <option value="all">Любая</option>
+                        <option value="100-200">100 000 - 200 000 ₽</option>
+                        <option value="200-300">200 000 - 300 000 ₽</option>
+                        <option value="300+">Более 300 000 ₽</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="product-grid">
+                <div class="watch-grid">
+                    <article class="watch-card">
+                        <div class="watch-image-wrapper">
+                            <img src="img/Breguet - Classique Grande Complication Tourbillon 5317 1 (1) 1 1.png" alt="Золотые часы" class="watch-image">
+                        </div>
+                        <h3 class="watch-title">Золотые часы</h3>
+                        <p class="watch-description">
+                            Элегантные часы с золотым циферблатом и сапфировым стеклом. 
+                            Швейцарский механизм с автоподзаводом. 
+                            Водонепроницаемость до 50 метров.
+                        </p>
+                        <div class="watch-specs">
+                            <span>Материал: 18K золото</span>
+                            <span>Механизм: Автоматический</span>
+                            <span>Стекло: Сапфировое</span>
+                        </div>
+                        <p class="watch-price">167 000 ₽</p>
+                        <button class="watch-cta">Подробнее</button>
+                    </article>
+
+                    <article class="watch-card">
+                        <div class="watch-image-wrapper">
+                            <img src="img/IWC-unique-platinum-Big-Pilot-s-Perpetual-Calendar-Edition-Le-Petit-Prince-(3) 1 2.png" alt="Серебряные часы" class="watch-image">
+                        </div>
+                        <h3 class="watch-title">Серебряные часы</h3>
+                        <p class="watch-description">
+                            Классические часы с платиновым корпусом и вечным календарем.
+                            Хронограф с функцией обратного отсчета.
+                            Ремешок из крокодиловой кожи.
+                        </p>
+                        <div class="watch-specs">
+                            <span>Материал: Платина</span>
+                            <span>Механизм: Автоматический</span>
+                            <span>Функции: Вечный календарь</span>
+                        </div>
+                        <p class="watch-price">144 000 ₽</p>
+                        <button class="watch-cta">Подробнее</button>
+                    </article>
+
+                    <article class="watch-card">
+                        <div class="watch-image-wrapper">
+                            <img src="img/omega-watch 1 1.png" alt="Синие часы" class="watch-image">
+                        </div>
+                        <h3 class="watch-title">Синие часы</h3>
+                        <p class="watch-description">
+                            Современные часы с синим циферблатом и хронографом.
+                            Противоударная защита и магнитная устойчивость.
+                            Стальной браслет с керамическими вставками.
+                        </p>
+                        <div class="watch-specs">
+                            <span>Материал: Нержавеющая сталь</span>
+                            <span>Механизм: Автоматический</span>
+                            <span>Водонепроницаемость: 100м</span>
+                        </div>
+                        <p class="watch-price">120 000 ₽</p>
+                        <button class="watch-cta">Подробнее</button>
+                    </article>
+                </div>
+            </div>
+
+            <div class="shop-features">
+                <div class="feature">
+                    <h3>Бесплатная доставка</h3>
+                    <p>При заказе от 200 000 ₽</p>
+                </div>
+                <div class="feature">
+                    <h3>Гарантия 2 года</h3>
+                    <p>На все модели часов</p>
+                </div>
+                <div class="feature">
+                    <h3>Бесплатная настройка</h3>
+                    <p>В течение первого года</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer" role="contentinfo">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <img src="svg/Eaglesquare.svg" alt="Eagle Square Watches" class="footer-logo">
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; EAGLESQUARE. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
